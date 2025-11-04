@@ -1,0 +1,35 @@
+# ============================
+# Python & Jupyter
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.ipynb_checkpoints/
+
+# ============================
+# VSCode & OS Files
+# ============================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ============================
+# Model & Checkpoints
+# ============================
+checkpoints/
+model/
+*.h5
+*.hdf5
+*.keras
+
+# ============================
+# Data & Environment Files
+# ============================
+*.csv
+*.xlsx
+*.json
+*.zip
+*.env
