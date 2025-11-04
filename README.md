@@ -1,7 +1,7 @@
 # 🔥 Melting Tank LSTM Baseline
 
 **Project Goal**  
-LSTM 기반의 용해탱크 공정 데이터를 활용하여 정상(OK) / 불량(NG) 상태를
+LSTM 기반의 용해탱크 공정 데이터를 활용하여 정상(OK)과 불량(NG) 상태를
 예측하는 베이스라인 모델을 구축한다.
 
 
@@ -10,8 +10,8 @@ LSTM 기반의 용해탱크 공정 데이터를 활용하여 정상(OK) / 불량
 -   **데이터 주기:** 6초 간격으로 측정된 시계열 센서 데이터
 -   **분석 목적:** 정상/불량 여부(TAG)를 분류
 -   **입력 변수:**
-    -   `MELT_TEMP`: 용해 온도(℃)\
-    -   `MOTORSPEED`: 교반 모터 회전 속도(RPM)\
+    -   `MELT_TEMP`: 용해 온도(℃)
+    -   `MOTORSPEED`: 교반 모터 회전 속도(RPM)
 -   **출력 변수:**
     -   `TAG`: 품질 판정 결과 (OK=1, NG=0)
 
@@ -21,9 +21,9 @@ LSTM 기반의 용해탱크 공정 데이터를 활용하여 정상(OK) / 불량
 -   **모델 유형:** LSTM (Long Short-Term Memory)
 -   **입력 구조:** (window_size, feature)
 -   **학습 방식:**
-    -   MinMax 정규화\
-    -   SMOTE를 통한 클래스 불균형 보정\
-    -   EarlyStopping + ModelCheckpoint 콜백 사용\
+    -   MinMax 정규화
+    -   SMOTE를 통한 클래스 불균형 보정
+    -   EarlyStopping + ModelCheckpoint 콜백 사용
     -   Adam Optimizer, Binary Crossentropy Loss
 
 
