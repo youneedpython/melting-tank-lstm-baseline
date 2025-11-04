@@ -88,7 +88,7 @@ jupyter notebook Baseline-lstm.ipynb
     └─ README.md
 
 
-## 8. Reference
+## 8. Data Source
 Ministry of SMEs and Startups., and KAIST(Korea Advanced Institute of Science and
 Technology). (2020, December 14). Melting tank AI dataset. Korea AI Manufacturing
 Platform(KAMP). https://www.kamp-ai.kr/
